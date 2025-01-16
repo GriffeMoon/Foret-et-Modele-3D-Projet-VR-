@@ -1,15 +1,15 @@
 # Projet-VR
 
 
-1. Description projet: Ce projet VR a été créé dans le cadre du cours de Réalité Virtuelle donné par Isaac Pante. Ce travail a pour but de tester des animations (surtout des éléments 2D pour ne pas surcharger), des sons et des lumières. La validation comprend cette scène ainsi que le modèle 3D inclus à l'intérieur de la scène.
+1. *Description projet*: Ce projet VR a été créé dans le cadre du cours de Réalité Virtuelle donné par Isaac Pante. Ce travail a pour but de tester des animations (surtout des éléments 2D pour ne pas surcharger), des sons et des lumières. La validation comprend cette scène ainsi que le modèle 3D inclus à l'intérieur de la scène.
 
-2. Pour installer le projet, il faut mettre dans un seul dossier, les dossiers "Alvares", "PNG", "Sound" et "favicon_io". ainsi que le document HTML et JS. Le dossier "Références + Blender" comprend les fichiers permettant la création du modèle 3D, et le dossier "Step Modèls:VR", les images joints dans ce README.md.
+2. *Pour installer le projet*, il faut mettre dans un seul dossier, les dossiers "Alvares", "PNG", "Sound" et "favicon_io". ainsi que le document HTML et JS. Le dossier "Références + Blender" comprend les fichiers permettant la création du modèle 3D, et le dossier "Step Modèls:VR", les images joints dans ce README.md.
 
 3. Le script utilise principalement a-frame ainsi qu'un component miroir fonctionnant avec a-frame.
 
 4. Pour les ressources utilisées :
    
-Sections Crédits & Ressources
+*Sections Crédits & Ressources*
 
 Fichiers images et modèle 3D:
 Image de la lune par la NASA's Scientific Visualization Studio: https://svs.gsfc.nasa.gov/4720/.
