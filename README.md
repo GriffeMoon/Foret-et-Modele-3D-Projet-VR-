@@ -5,7 +5,7 @@
 
 2. Pour installer le projet, il faut mettre dans un seul dossier, les dossiers "Alvares", "PNG", "Sound" et "favicon_io". ainsi que le document HTML et JS. Le dossier "Références + Blender" comprend les fichiers permettant la création du modèle 3D, et le dossier "Step Modèls:VR", les images joints dans ce README.md.
 
-3.Le script utilise principalement a-frame ainsi qu'un component miroir fonctionnant avec a-frame.
+3. Le script utilise principalement a-frame ainsi qu'un component miroir fonctionnant avec a-frame.
 
 4. Pour les ressources utilisées :
    
