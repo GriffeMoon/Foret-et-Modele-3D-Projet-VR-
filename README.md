@@ -32,45 +32,44 @@ Aframe-physics-system, par n5ro: https://github.com/c-frame/aframe-physics-syste
 
 6. Scène
  <img width="300" alt="Capture d’écran 2024-12-23 à 12 28 02" src="https://github.com/user-attachments/assets/1f19d853-3bec-4162-bbea-12b2a0f3394d" />
-Dans les grandes lignes, il s'agit surtout de créer une petite scène dans les mêmes tons de couleurs dans une forêt, de nuit. Il n'y a pas beaucoup d'éléments d'intéractions, mais surtout des jeux de lumières et d'animations avec l'environnement. 
-
+Dans les grandes lignes, il s'agit surtout de créer une petite scène dans les mêmes tons de couleurs dans une forêt, de nuit. Il n'y a pas beaucoup d'éléments d'interactions, mais des animations et des jeux de lumières sont présents.
 
 
 7. Modélisation 3D
 La modélisation s'est faite sur Blender, en parallèle du code de la scène. Bien que les premiers essais ne soient pas inclus dans les documents, il s'agit de la troisième tentative de modélisation de l'objet.
 
-En premier lieu, avant de se lancer à corps perdu dans Blender. Il fallait être sûr de ce que je comptais faire en tant que modèle et dans quel but. Comme explicité plus tôt, je n'ai pas pu faire d'élément d'intéraction au niveau du texte, ce qui empute en partie l'objectif de base. L'animation du modèle 3D était et est resté annexe.
+En premier lieu, avant de se lancer à corps perdu dans Blender. Il fallait être sûr de ce que je comptais faire en tant que modèle et dans quel but. Comme explicité plus tôt, je n'ai pas pu faire d'élément d'interaction au niveau du texte, ce qui empute en partie l'objectif de base. L'animation du modèle 3D était et est resté annexe.
 
 <img width="300" alt="Alvarès" src="https://github.com/user-attachments/assets/38c801d7-6073-48c4-a941-0be03b498bba">
 <img width="300" alt="Référence" src="https://github.com/user-attachments/assets/48335747-f40e-4927-af99-bf6a0bebbc61">
 <img width="300" alt="Référence" src="https://github.com/user-attachments/assets/f96281ec-45ae-4ad9-a9c7-76d7f0f8b15d">
 
 
-Par ailleurs, certains éléments ou détails n'ont pas été mis dans le modèle final, mais, dans les grandes lignes, ce n'est pas si grave.
+Par ailleurs, certains éléments ou détails du dessin n'ont pas été mis dans le modèle final.
 
-Tout d'abord, la tête a été modélisée à partir d'une sphère assez dense en sommets. Cela permet d'éviter trop de complication pour faire les détails. Mise à part la partie concernant les cheveux et certains détails, tout a fait en symétrie sur l'axe des x, et en alternance entre le mode "sculpture" et "modélisation".
+La tête a été modélisée à partir d'une sphère assez dense en sommets. Cela permet d'éviter trop de complication pour faire les détails. Mise à part la partie concernant les cheveux et certains détails, tout a été fait en symétrie sur l'axe des x, et en alternance entre le mode "sculpture" et "modélisation".
 
-Par la suite, un croquis approximatif a été fait pour deviner les proportions que je devais atteindre avec les autres parties du corps. Pour les bras, les jambes et le tronc, deux cylindres ont été utilisés à chaque fois. À l'instar de la tête, des ajouts de sommets ont été nécessaires pour rendre la modification de l'objet plus souples. Quelques erreurs de symmétrie se sont créés, surtout aux bras à cette étape.
+Par la suite, un croquis approximatif a été fait pour deviner les proportions que je devais atteindre avec les autres parties du corps. Pour les bras, les jambes et le tronc, deux cylindres ont été utilisés à chaque fois. À l'instar de la tête, des ajouts de sommets ont été nécessaires pour rendre la modification de l'objet plus souple. Quelques erreurs de symétrie se sont créées, surtout aux bras à cette étape.
 
 <img width="300" alt="Capture d’écran 2024-12-26 à 17.37.48" src="https://github.com/user-attachments/assets/90c55ec4-b0a8-4c7d-959a-e704ca01e50c">
 <img width="300" alt="Capture d’écran 2024-12-26 à 17.38.01" src="https://github.com/user-attachments/assets/68a35b38-005f-4c0e-a668-14c82df90485">
 <img width="300" alt="Capture d’écran 2024-12-30 à 12.10.52" src="https://github.com/user-attachments/assets/43f4fbce-185d-4291-a979-dbd734e5792b">
 
-Par la suite vient l'étape des yeux et de la bouche. J'ai très vite mis de côté, puis abandonné la deuxième partie car je n'ai pas pu faire un bon rigging (qui sera expliqué à la toute fin). Quant aux yeux, un croquis a également été fait pour situer les choses. Les cils ont été fait dans un objet à part de la tête afin d'éviter de le modifier par inadvertance. Pour les yeux, j'ai d'abord voulu les faire directement sur l'objet contenant la tête, mais le rendu n'était pas concluant. De même qu'utiliser deux sphères rendaient l'ensemble étrange. Finalement, j'ai utilisé un plan en 2D et créer des orbites sur l'objet tête afin que ça matche mieux esthétiquement.
+Par la suite, vient l'étape des yeux et de la bouche. J'ai très vite mis de côté, puis abandonné la deuxième partie, car je n'ai pas pu faire un bon rigging (qui sera expliqué à la toute fin). Quant aux yeux, un croquis a également été fait pour situer les choses. Les cils ont été faits dans un objet à part de la tête afin d'éviter de le modifier par inadvertance. Pour les yeux, j'ai d'abord voulu les faire directement sur l'objet contenant la tête, mais le rendu n'était pas concluant. De même qu'utiliser deux sphères rendait l'ensemble étrange. Finalement, j'ai utilisé un plan en 2D et créer des orbites sur l'objet tête afin que ça matche mieux esthétiquement.
 <img width="300" alt="Capture d’écran 2024-12-30 à 15.05.28" src="https://github.com/user-attachments/assets/544c0fa7-035e-4fdc-9e9c-5647a15829a2">
 
 
-Un des essais infructueux:
+Un des essais infructueux :
 <img width="300" alt="Capture d’écran 2024-12-31 à 23.59.14" src="https://github.com/user-attachments/assets/72119700-28bd-463b-b84e-8cf9b24f1fe8">
 
 <img width="300" alt="Capture d’écran 2024-12-30 à 15 20 19" src="[https://github.com/user-attachments/assets/eb5f9cdc-80f7-4d54-bdfa-b1b2d7b6973b">
 <img width="300" alt="Capture d’écran 2024-12-30 à 15 23 07" src="https://github.com/user-attachments/assets/25ba9a69-3811-4114-9e3b-adfc1c3a1a0e">
 
-Une des versions presque définitif:
+Une des versions presque définitive :
 <img width="300" alt="CCapture d’écran 2025-01-07 à 15 17 38" src="https://github.com/user-attachments/assets/37540e2f-53d0-4402-82b2-fdf0f7d3c7e1">
 
 
-Tous les éléments en lien avec la tenue ont été ajouté petit à petit et modélisé à part du modèle principal avant de fusionner les meshes en un seul objet. Le mode "peinture de sommets" a été utilisé pour coloriser tout le long du processus et aucune texture n'a été ajouté.
+Tous les éléments en lien avec la tenue ont été ajoutés petit à petit et modélisés à part du modèle principal avant de fusionner les meshes en un seul objet. Le mode "peinture de sommets" a été utilisé pour coloriser tout le long du processus et aucune texture n'a été ajouté.
 
 Concernant la partie en lien avec la tentative de rigging (squelette du modèle), il y a eu plusieurs complications. Tout d'abord, dans le mode "objet", "ajouter", puis "armature", j'ai mis le squelette par défaut "basic human".
 
@@ -81,7 +80,7 @@ Après avoir aligné le squelette avec le modèle, il a fallu sélectionner l'ob
 Peinture de poids, plus la zone est rouge, plus elle est sensible au mouvement.
 <img width="523" alt="Capture d’écran 2025-01-15 à 16 38 59" src="https://github.com/user-attachments/assets/b75e5c30-2fe7-4ba4-8a66-94931038a3e7"/>
 
-À partir de là, et une fois que le modèle suit les mouvements du squelette, on peut utiliser le rigging automatique ("generate rig" dans le sous-menu "données" de l'objet "metarig"). Techniquement, il fonctionne, mais il y a des éléments dont on ne souhaiterait aps qu'il bouge autant. Ce n'est que des suppositions, mais en complexifiant le rigging en prenant en compte les objets qui pendent (manteau, accessoires, cheveux, etc.), peut-être que ce souci pourrait être réglé. L'autre hypothèse est que certains éléments auraient dû être à part du modèle 3D principal afin de ne pas gêner certains mouvements.
+À partir de là, et une fois que le modèle suit les mouvements du squelette, on peut utiliser le rigging automatique ("generate rig" dans le sous-menu "données" de l'objet "metarig"). Techniquement, il fonctionne, mais il y a des éléments dont on ne souhaiterait point qu'il bouge autant. Ce ne sont que des suppositions, mais en complexifiant le rigging et en prenant en compte les objets qui pendent (manteau, accessoires, cheveux, etc.), peut-être que ce souci pourrait être réglé. L'autre hypothèse serait que certains éléments auraient dû être à part du modèle 3D principal afin de ne pas gêner certains mouvements.
 
 ![Uploading Enregistrement-de-l’écran-2025-01-15-à-16.44.45.gif…]()
 <img width="616" alt="Capture d’écran 2025-01-14 à 01 36 51" src="https://github.com/user-attachments/assets/c48313a1-d6b6-45e0-9114-324d506af1b7" />
