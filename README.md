@@ -18,14 +18,18 @@ Tous les fichiers png non mentionnés ainsi que le modèle 3D ont été créés 
 
 Sons & Musiques:
 Campagne son, sur le site de la Sonothèque: https://lasonotheque.org/campagne-s0097.html.
+
 Magic in the air, par Geoff Harvey: https://pixabay.com/fr/music/titre-principal-magic-in-the-air-43177/.
+
 Aquarium, de Saint Saëns, Abydos_Music : https://pixabay.com/fr/music/fantaisie-et-enfants-reveurs-aquarium-by-saint-saens-156733/.
 
 Codes:
 Miroir component:
 Fern-aframe-components, par MRXZ: https://github.com/mrxz/fern-aframe-components/tree/main/mirror.
+
 Particule image component:
 A-Frame-Component-Image Particles, par Akbartus: https://github.com/akbartus/A-Frame-Component-Image-Particles.
+
 Physique:
 Aframe-physics-system, par n5ro: https://github.com/c-frame/aframe-physics-system.
   
