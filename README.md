@@ -7,8 +7,9 @@
 
 3.Le script utilise principalement a-frame ainsi qu'un component miroir fonctionnant avec a-frame.
 
-4. Pour les ressources utilisées:
-   <Sections Crédits & Ressources
+4. Pour les ressources utilisées :
+   
+   Sections Crédits & Ressources
 
   Fichiers images et modèle 3D:
   Image de la lune par la NASA's Scientific Visualization Studio: https://svs.gsfc.nasa.gov/4720/
