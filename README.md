@@ -61,12 +61,15 @@ Par la suite, un croquis approximatif a été fait pour deviner les proportions 
 <img width="300" alt="Capture d’écran 2024-12-30 à 12.10.52" src="https://github.com/user-attachments/assets/43f4fbce-185d-4291-a979-dbd734e5792b">
 
 Par la suite, vient l'étape des yeux et de la bouche. J'ai très vite mis de côté, puis abandonné la deuxième partie, car je n'ai pas pu faire un bon rigging (qui sera expliqué à la toute fin). Quant aux yeux, un croquis a également été fait pour situer les choses. Les cils ont été faits dans un objet à part de la tête afin d'éviter de le modifier par inadvertance. Pour les yeux, j'ai d'abord voulu les faire directement sur l'objet contenant la tête, mais le rendu n'était pas concluant. De même qu'utiliser deux sphères rendait l'ensemble étrange. Finalement, j'ai utilisé un plan en 2D et créer des orbites sur l'objet tête afin que ça matche mieux esthétiquement.
+
+Avant les modifications:
 <img width="300" alt="Capture d’écran 2024-12-30 à 15.05.28" src="https://github.com/user-attachments/assets/544c0fa7-035e-4fdc-9e9c-5647a15829a2">
 
 
 Un des essais infructueux :
 <img width="300" alt="Capture d’écran 2024-12-31 à 23.59.14" src="https://github.com/user-attachments/assets/72119700-28bd-463b-b84e-8cf9b24f1fe8">
 
+Situer les modifications :
 <img width="300" alt="Capture d’écran 2024-12-30 à 15 20 19" src="https://github.com/user-attachments/assets/d116c6ee-4230-4e59-80f7-8478f735ec79">
 <img width="300" alt="Capture d’écran 2024-12-30 à 15 23 07" src="https://github.com/user-attachments/assets/25ba9a69-3811-4114-9e3b-adfc1c3a1a0e">
 
