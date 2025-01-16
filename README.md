@@ -3,7 +3,7 @@
 
 1. Description projet: Ce projet VR a été créé dans le cadre du cours de Réalité Virtuelle donné par Isaac Pante. Ce travail a pour but de tester des animations (surtout des éléments 2D pour ne pas surcharger), des sons et des lumières. La validation comprend cette scène ainsi que le modèle 3D inclus à l'intérieur de la scène.
 
-2.Pour installer le projet, il faut mettre dans un seul dossier, les dossiers "Alvares", "PNG", "Sound" et "favicon_io". ainsi que le document HTML et JS. Le dossier "Références + Blender" comprend les fichiers permettant la création du modèle 3D, et le dossier "Step Modèls:VR", les images joints dans ce README.md.
+2. Pour installer le projet, il faut mettre dans un seul dossier, les dossiers "Alvares", "PNG", "Sound" et "favicon_io". ainsi que le document HTML et JS. Le dossier "Références + Blender" comprend les fichiers permettant la création du modèle 3D, et le dossier "Step Modèls:VR", les images joints dans ce README.md.
 
 3.Le script utilise principalement a-frame ainsi qu'un component miroir fonctionnant avec a-frame.
 
@@ -28,7 +28,7 @@ A-Frame-Component-Image Particles, par Akbartus: https://github.com/akbartus/A-F
 Physique:
 Aframe-physics-system, par n5ro: https://github.com/c-frame/aframe-physics-system.
   
-5. Limites/Bug: Pour les limites du projet, à l'origine, la scène devait faire office d'un jeu type fiction intéractive, mais je n'arrivais pas à mettre à jour les valeurs mis en textes. De ce fait, le lien entre le modèle 3D et la scène ne s'est pas fait concrètement. De plus, les images png mises au hasard se chevauchent ou ne s'affichent pas si une autre image PNG se trouve devant.
+5. Limites/Bug: Pour les limites du projet, à l'origine, la scène devait faire office d'un jeu type fiction intéractive, mais je n'arrivais pas à mettre à jour les valeurs mises dans le texte. De ce fait, le lien entre le modèle 3D et la scène ne s'est pas fait concrètement. De plus, les images png mises au hasard se chevauchent ou ne s'affichent pas si une autre image PNG se trouve devant.
 
 6. Scène
  <img width="300" alt="Capture d’écran 2024-12-23 à 12 28 02" src="https://github.com/user-attachments/assets/1f19d853-3bec-4162-bbea-12b2a0f3394d" />
