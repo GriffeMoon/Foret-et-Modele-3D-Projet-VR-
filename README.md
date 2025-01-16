@@ -40,6 +40,7 @@ Aframe-physics-system, par n5ro: https://github.com/c-frame/aframe-physics-syste
 Dans les grandes lignes, il s'agit surtout de créer une petite scène dans les mêmes tons de couleurs dans une forêt, de nuit. Il n'y a pas beaucoup d'éléments d'interactions, mais des animations et des jeux de lumières sont présents.
 
 
+
 7. *Modélisation 3D*
 La modélisation s'est faite sur Blender, en parallèle du code de la scène. Bien que les premiers essais ne soient pas inclus dans les documents, il s'agit de la troisième tentative de modélisation de l'objet.
 
@@ -90,11 +91,12 @@ Peinture de poids, plus la zone est rouge, plus elle est sensible au mouvement.
 
 À partir de là, et une fois que le modèle suit les mouvements du squelette, on peut utiliser le rigging automatique ("generate rig" dans le sous-menu "données" de l'objet "metarig"). Techniquement, il fonctionne, mais il y a des éléments dont on ne souhaiterait point qu'il bouge autant. Ce ne sont que des suppositions, mais en complexifiant le rigging et en prenant en compte les objets qui pendent (manteau, accessoires, cheveux, etc.), peut-être que ce souci pourrait être réglé. L'autre hypothèse serait que certains éléments auraient dû être à part du modèle 3D principal afin de ne pas gêner certains mouvements.
 
-![Uploading Enregistrement-de-l’écran-2025-01-15-à-16.44.45.gif…]()
 <img width="616" alt="Capture d’écran 2025-01-14 à 01 36 51" src="https://github.com/user-attachments/assets/c48313a1-d6b6-45e0-9114-324d506af1b7" />
 <img width="579" alt="Capture d’écran 2025-01-14 à 01 37 36" src="https://github.com/user-attachments/assets/b27c4a4c-5e15-4cb2-a146-6f98cc48f6e1" />
 <img width="585" alt="Capture d’écran 2025-01-14 à 01 37 48" src="https://github.com/user-attachments/assets/035a9173-aae0-48fd-b5db-cb0d0b21a5e1" />
 <img width="615" alt="Capture d’écran 2025-01-14 à 01 38 42" src="https://github.com/user-attachments/assets/1b57f938-bbce-4e3f-b24a-ab95e6a891b6" />
+
+![Enregistrement-de-l’écran-2025-01-15-à-16](https://github.com/user-attachments/assets/088f4689-f3d6-4e9d-a4f3-f23f86c93ca6)
 
 Avec plus de temps, peut-être que cela pourrait être corrigé, mais pour une première tentative, on va dire que c'est moins pire que cela pourrait être. 
 
