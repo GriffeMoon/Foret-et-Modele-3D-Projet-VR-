@@ -12,13 +12,14 @@
 Sections Crédits & Ressources
 
 Fichiers images et modèle 3D:
-Image de la lune par la NASA's Scientific Visualization Studio: https://svs.gsfc.nasa.gov/4720/
+Image de la lune par la NASA's Scientific Visualization Studio: https://svs.gsfc.nasa.gov/4720/.
+
 Tous les fichiers png non mentionnés ainsi que le modèle 3D ont été créés expressément pour le projet.
 
 Sons & Musiques:
-Campagne son, sur le site de la Sonothèque: https://lasonotheque.org/campagne-s0097.html
-Magic in the air, par Geoff Harvey: https://pixabay.com/fr/music/titre-principal-magic-in-the-air-43177/-->
-Aquarium, de Saint Saëns, Abydos_Music : https://pixabay.com/fr/music/fantaisie-et-enfants-reveurs-aquarium-by-saint-saens-156733/
+Campagne son, sur le site de la Sonothèque: https://lasonotheque.org/campagne-s0097.html.
+Magic in the air, par Geoff Harvey: https://pixabay.com/fr/music/titre-principal-magic-in-the-air-43177/.
+Aquarium, de Saint Saëns, Abydos_Music : https://pixabay.com/fr/music/fantaisie-et-enfants-reveurs-aquarium-by-saint-saens-156733/.
 
 Codes:
 Miroir component:
