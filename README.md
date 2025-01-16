@@ -26,25 +26,18 @@
   A-Frame-Component-Image Particles, par Akbartus: https://github.com/akbartus/A-Frame-Component-Image-Particles.
   Physique:
   Aframe-physics-system, par n5ro: https://github.com/c-frame/aframe-physics-system.
-
-
-
-
-
-
-
-4.
-5. Certains éléments cliquables démarrent des musiques ou des sons. À l'origine, la scène devait faire office d'un jeu type fiction intéractive, mais je n'arrivais pas à mettre à jour les valeurs mis en textes.
-Pour l'installation, il suffit d'avoir l'ensemble du dossier (doc HTML, JS, dossiers compris)
+  
+5. Pour les limites du projetCertains éléments cliquables démarrent des musiques ou des sons. À l'origine, la scène devait faire office d'un jeu type fiction intéractive, mais je n'arrivais pas à mettre à jour les valeurs mis en textes.
+Ce qui n'a pas pu ou pourrait être fait:
 
 6. Scène
-7. <img width="300" alt="Capture d’écran 2024-12-23 à 12 28 02" src="https://github.com/user-attachments/assets/1f19d853-3bec-4162-bbea-12b2a0f3394d" />
+ <img width="300" alt="Capture d’écran 2024-12-23 à 12 28 02" src="https://github.com/user-attachments/assets/1f19d853-3bec-4162-bbea-12b2a0f3394d" />
 
 
 
 
 
-3. Modélisation 3D
+7. Modélisation 3D
 La modélisation s'est faite sur Blender, en parallèle du code de la scène. Bien que les premiers essais ne soient pas inclus dans les documents, il s'agit de la troisième tentative de modélisation de l'objet.
 
 En premier lieu, avant de se lancer à corps perdu dans Blender. Il fallait être sûr de ce que je comptais faire en tant que modèle et dans quel but. Comme explicité plus tôt, je n'ai pas pu faire d'élément d'intéraction au niveau du texte, ce qui empute en partie l'objectif de base. L'animation du modèle 3D était et est resté annexe.
@@ -99,8 +92,3 @@ Peinture de poids, plus la zone est rouge, plus elle est sensible au mouvement.
 
 Avec plus de temps, peut-être que cela pourrait être corrigé, mais pour une première tentative, on va dire que c'est moins pire que cela pourrait être. 
 
-4. Ce qui n'a pas pu ou pourrait être fait:
-    
-
-
-5. Section Copyright
