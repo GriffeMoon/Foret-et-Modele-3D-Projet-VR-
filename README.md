@@ -67,7 +67,7 @@ Par la suite, vient l'étape des yeux et de la bouche. J'ai très vite mis de c�
 Un des essais infructueux :
 <img width="300" alt="Capture d’écran 2024-12-31 à 23.59.14" src="https://github.com/user-attachments/assets/72119700-28bd-463b-b84e-8cf9b24f1fe8">
 
-<img width="300" alt="Capture d’écran 2024-12-30 à 15 20 19" src="[https://github.com/user-attachments/assets/eb5f9cdc-80f7-4d54-bdfa-b1b2d7b6973b">
+<img width="300" alt="Capture d’écran 2024-12-30 à 15 20 19" src="https://github.com/user-attachments/assets/d116c6ee-4230-4e59-80f7-8478f735ec79">
 <img width="300" alt="Capture d’écran 2024-12-30 à 15 23 07" src="https://github.com/user-attachments/assets/25ba9a69-3811-4114-9e3b-adfc1c3a1a0e">
 
 Une des versions presque définitive :
