@@ -1,11 +1,44 @@
 # Projet-VR
 
 
-1. Description projet: Ce projet VR a été créé dans le cadre du cours de Réalité Virtuelle donné par Isaac Pante. Ce travail a pour but de tester des animations (surtout d'éléments 2D pour ne pas surcharger), des sons et des lumières. La validation comprend cette scène ainsi que le modèle 3D inclus dans la scène. Certains éléments cliquables démarrent des musiques ou des sons. À l'origine, la scène devait faire office d'un jeu type fiction intéractive, mais je n'arrivais pas à mettre à jour les valeurs mis en textes.
+1. Description projet: Ce projet VR a été créé dans le cadre du cours de Réalité Virtuelle donné par Isaac Pante. Ce travail a pour but de tester des animations (surtout des éléments 2D pour ne pas surcharger), des sons et des lumières. La validation comprend cette scène ainsi que le modèle 3D inclus à l'intérieur de la scène.
+
+2.Pour installer le projet, il faut mettre dans un seul dossier, les dossiers "Alvares", "PNG", "Sound" et "favicon_io". ainsi que le document HTML et JS. Le dossier "Références + Blender" comprend les fichiers permettant la création du modèle 3D, et le dossier "Step Modèls:VR", les images joints dans ce README.md.
+
+3.Le script utilise principalement a-frame ainsi qu'un component miroir fonctionnant avec a-frame.
+
+4. Pour les ressources utilisées:
+   <Sections Crédits & Ressources
+
+  Fichiers images et modèle 3D:
+  Image de la lune par la NASA's Scientific Visualization Studio: https://svs.gsfc.nasa.gov/4720/
+  Tous les fichiers png non mentionnés ainsi que le modèle 3D ont été créés expressément pour le projet.
+
+  Sons & Musiques:
+  Campagne son, sur le site de la Sonothèque: https://lasonotheque.org/campagne-s0097.html
+  Magic in the air, par Geoff Harvey: https://pixabay.com/fr/music/titre-principal-magic-in-the-air-43177/-->
+  Aquarium, de Saint Saëns, Abydos_Music : https://pixabay.com/fr/music/fantaisie-et-enfants-reveurs-aquarium-by-saint-saens-156733/
+
+  Codes:
+  Miroir component:
+  Fern-aframe-components, par MRXZ: https://github.com/mrxz/fern-aframe-components/tree/main/mirror.
+  Particule image component:
+  A-Frame-Component-Image Particles, par Akbartus: https://github.com/akbartus/A-Frame-Component-Image-Particles.
+  Physique:
+  Aframe-physics-system, par n5ro: https://github.com/c-frame/aframe-physics-system.
+
+
+
+
+
+
+
+4.
+5. Certains éléments cliquables démarrent des musiques ou des sons. À l'origine, la scène devait faire office d'un jeu type fiction intéractive, mais je n'arrivais pas à mettre à jour les valeurs mis en textes.
 Pour l'installation, il suffit d'avoir l'ensemble du dossier (doc HTML, JS, dossiers compris)
 
-2. Scène
-3. <img width="300" alt="Capture d’écran 2024-12-23 à 12 28 02" src="https://github.com/user-attachments/assets/1f19d853-3bec-4162-bbea-12b2a0f3394d" />
+6. Scène
+7. <img width="300" alt="Capture d’écran 2024-12-23 à 12 28 02" src="https://github.com/user-attachments/assets/1f19d853-3bec-4162-bbea-12b2a0f3394d" />
 
 
 
