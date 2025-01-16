@@ -33,14 +33,14 @@ A-Frame-Component-Image Particles, par Akbartus: https://github.com/akbartus/A-F
 Physique:
 Aframe-physics-system, par n5ro: https://github.com/c-frame/aframe-physics-system.
   
-5. Limites/Bug: Pour les limites du projet, à l'origine, la scène devait faire office d'un jeu type fiction intéractive, mais je n'arrivais pas à mettre à jour les valeurs mises dans le texte. De ce fait, le lien entre le modèle 3D et la scène ne s'est pas fait concrètement. De plus, les images png mises au hasard se chevauchent ou ne s'affichent pas si une autre image PNG se trouve devant.
+5. *Limites/Bug*: Pour les limites du projet, à l'origine, la scène devait faire office d'un jeu type fiction intéractive, mais je n'arrivais pas à mettre à jour les valeurs mises dans le texte. De ce fait, le lien entre le modèle 3D et la scène ne s'est pas fait concrètement. De plus, les images png mises au hasard se chevauchent ou ne s'affichent pas si une autre image PNG se trouve devant.
 
-6. Scène
+6. *Scène*
  <img width="300" alt="Capture d’écran 2024-12-23 à 12 28 02" src="https://github.com/user-attachments/assets/1f19d853-3bec-4162-bbea-12b2a0f3394d" />
 Dans les grandes lignes, il s'agit surtout de créer une petite scène dans les mêmes tons de couleurs dans une forêt, de nuit. Il n'y a pas beaucoup d'éléments d'interactions, mais des animations et des jeux de lumières sont présents.
 
 
-7. Modélisation 3D
+7. *Modélisation 3D*
 La modélisation s'est faite sur Blender, en parallèle du code de la scène. Bien que les premiers essais ne soient pas inclus dans les documents, il s'agit de la troisième tentative de modélisation de l'objet.
 
 En premier lieu, avant de se lancer à corps perdu dans Blender. Il fallait être sûr de ce que je comptais faire en tant que modèle et dans quel but. Comme explicité plus tôt, je n'ai pas pu faire d'élément d'interaction au niveau du texte, ce qui empute en partie l'objectif de base. L'animation du modèle 3D était et est resté annexe.
