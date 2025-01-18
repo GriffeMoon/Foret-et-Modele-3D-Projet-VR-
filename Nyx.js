@@ -4,6 +4,7 @@
 
 //3.Tentative de code pour générer des événements de dialogues
 
+//Quelques corrections du code - en particulier pour la fonction des images au hasard - sur Chatgpt.
 
 //Fonction afin de généréer les étoiles
 function créationEtoiles() {
@@ -28,7 +29,7 @@ function créationEtoiles() {
     });
 
     //Couleur au hasard
-    function randomColorMaterial() {
+    function randomCouleur() {
     const matériaux = [
     { emissive: "cyan", emissiveIntensity: 0.8 },
     { emissive: "salmon", emissiveIntensity: 0.8 },
@@ -52,7 +53,7 @@ function créationEtoiles() {
     étoileseule.setAttribute("radius", taille);
     étoileseule.setAttribute("color",`#FFFFFF`);
     étoileseule.setAttribute("opacity", lumière);
-    étoileseule.setAttribute("material", randomColorMaterial());
+    étoileseule.setAttribute("material", randomCouleur());
 
     étoiles.appendChild(étoileseule);
   }
@@ -67,7 +68,7 @@ créationEtoiles();
 
 
 //Arbres et verdures au hasard --> code similaire au précédent
-function getRandomInt(min, max) {
+function Random(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
@@ -96,20 +97,20 @@ const nombrearbre = 50;
 for (let i = 0; i < nombrearbre; i++) {
   const img1 = document.createElement("a-image");
 
-  function getRandomColor() {
+  function RandomCouleur() {
     const couleurs = ["pink", "blue", "cyan", "royalblue", "magenta", "purple"];
     const hasard = Math.floor(Math.random() * couleurs.length);
     return couleurs[hasard];
   }
-  const hasardcouleur = getRandomColor();
+  const hasardcouleur = RandomCouleur();
 
   // Sélection d'images prises au hasard
-  const source = images[getRandomInt(0, images.length - 1)];
+  const source = images[Random(0, images.length - 1)];
   img1.setAttribute("src", `url(${source})`);
   
-  const xPos = getRandomInt(-200, 200);
-  const yPos = getRandomInt(0, 20); 
-  const zPos = getRandomInt(500, -500);
+  const xPos = Random(-200, 200);
+  const yPos = Random(0, 20); 
+  const zPos = Random(500, -500);
 
   // Choix des attributs et position
 
@@ -123,7 +124,7 @@ for (let i = 0; i < nombrearbre; i++) {
     img1.setAttribute("rotation", "0 0 0"); //Pour la première image, la seconde aura 90 degrès de décalage
     img1.setAttribute("animation", "property : scale; to : 1.025 1 1.025; loop : true; dur : 1000; dir : alternate;");
     img1.setAttribute("color", hasardcouleur); 
-    //img1.setAttribute("rotation", `${getRandomInt(0, 360)} ${getRandomInt(0, 360)} ${getRandomInt(0, 360)}`); --> si rotation était au hasard
+    //img1.setAttribute("rotation", `${RandomInt(0, 360)} ${RandomInt(0, 360)} ${RandomInt(0, 360)}`); --> si rotation était au hasard
 
   document.querySelector("#scene").appendChild(img1);
 
